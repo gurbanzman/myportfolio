@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="./assets/stylesheets/style.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <!-- loader component -->
+   <div class="loader-content flex-center">
+      <div class="loader">
+         <div class="box">
+            <div class="logo">
+               <svg viewBox="0 0 100 100" aria-hidden="true">
+                  <path
+                     d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3 88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8 19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2 34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z"
+                     fill="rgba(255,255,255,0.6)">
+                  </path>
+               </svg>
+            </div>
+         </div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+      </div>
+   </div>
+
+
+   <div class="body-content">
+      <!-- navbar component -->
+      <div class="navbar-content">
+         <nav class="navbar page-container">
+
+            <section class="container flex-center">
+               <ul class="menu">
+                  <li class="menu-list">
+                     <a href="index.html" class="menu-link active">Home</a>
+                  </li>
+                  <li class="menu-list">
+                     <a href="about.html" class="menu-link">About</a>
+                  </li>
+               </ul>
+
+            </section>
+         </nav>
+      </div>
+      <!-- main component: skills -->
+      <div class="main-content page-container" data-aos="fade-up" data-aos-duration="500" data-delay="1300" data-aos-offset="700">
+         <h1 class="head--title">My Skills</h1>
+         <section class="section">
+            <div class="wall">
+               <div class="v-boxes">
+                  <div class="box-header">
+                     <span class="tooltip">CSS</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-css3-alt"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box-header">
+                     <span class="tooltip">JavaScript</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-js-square"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="far fa-star"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box-header">
+                     <span class="tooltip">Bootstrap</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-bootstrap"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box-header">
+                     <span class="tooltip">HTML</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-html5"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="far fa-star"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="v-boxes second">
+                  <div class="box-header">
+                     <span class="tooltip">Github</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-github"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="far fa-star"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box-header">
+                     <span class="tooltip">React</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-react"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box-header">
+                     <span class="tooltip">NodeJs</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-node-js"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                           <i class="far fa-star"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="v-boxes third">
+                  <div class="box-header">
+                     <span class="tooltip">Figma</span>
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-figma"></i></div>
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                           <i class="far fa-star"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box-header">
+                     <!-- <span class="tooltip">VueNative</span> -->
+                     <div class="box-face">
+                        <!-- <div class="box-text"><i class="fa-network-wired"></i></div> -->
+                     </div>
+                     <div class="box-back">
+                        <div class="box-text">
+                           <!-- <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                           <i class="far fa-star"></i> -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="v-boxes forth">
+                  <div class="box-header link">
+                     <div class="box-face">
+                        <div class="box-text"><i class="fab fa-github-alt"></i></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+      </div>
+
+      <!-- project component -->
+      <div class="main-content">
+         <div class="projcard-container">
+            <h1 class="head--title" data-aos="fade-up" data-aos-duration="500" data-aos-offset="1400">My Projects</h1>
+
+            <div class="projcard projcard-blue" data-aos="fade-up" data-aos-duration="500" data-delay="300" data-aos-offset="1600">
+               <div class="projcard-innerbox">
+                  <img class="projcard-img" src="https://picsum.photos/800/600?image=1041" />
+                  <div class="projcard-textbox">
+                     <div class="projcard-title">Card Title</div>
+                     <div class="projcard-subtitle">This explains the card in more detail</div>
+                     <div class="projcard-bar"></div>
+                     <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                     <div class="projcard-tagbox">
+                        <span class="projcard-tag">HTML</span>
+                        <span class="projcard-tag">CSS</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="projcard projcard-red" data-aos="fade-up" data-aos-duration="500" data-delay="400" data-aos-offset="1700">
+               <div class="projcard-innerbox">
+                  <img class="projcard-img" src="https://picsum.photos/800/600?image=1080" />
+                  <div class="projcard-textbox">
+                     <div class="projcard-title">That's Another Card</div>
+                     <div class="projcard-subtitle">I don't really think that I need to explain anything here</div>
+                     <div class="projcard-bar"></div>
+                     <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.</div>
+                     <div class="projcard-tagbox">
+                        <span class="projcard-tag">PHP</span>
+                        <span class="projcard-tag">SQL</span>
+                        <span class="projcard-tag">Database</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="projcard projcard-green" data-aos="fade-up" data-aos-duration="500" data-delay="500" data-aos-offset="1900">
+               <div class="projcard-innerbox">
+                  <img class="projcard-img" src="https://picsum.photos/800/600?image=1039" />
+                  <div class="projcard-textbox">
+                     <div class="projcard-title">And a Third Card</div>
+                     <div class="projcard-subtitle">You know what this is by now</div>
+                     <div class="projcard-bar"></div>
+                     <div class="projcard-description">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</div>
+                     <div class="projcard-tagbox">
+                        <span class="projcard-tag">Excel</span>
+                        <span class="projcard-tag">VBA</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="projcard projcard-customcolor" style="--projcard-color: #F5AF41;" data-aos="fade-up" data-aos-duration="500" data-delay="600" data-aos-offset="2100">
+               <div class="projcard-innerbox">
+                  <img class="projcard-img" src="https://picsum.photos/800/600?image=943" />
+                  <div class="projcard-textbox">
+                     <div class="projcard-title">Last Card</div>
+                     <div class="projcard-subtitle">That's the last one. Have a nice day!</div>
+                     <div class="projcard-bar"></div>
+                     <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                     <div class="projcard-tagbox">
+                        <span class="projcard-tag">iOS</span>
+                        <span class="projcard-tag">Android</span>
+                        <span class="projcard-tag">Cordova</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <!-- language component (skills) -->
+      <div class="main-content" data-aos="fade-up" data-aos-duration="500" data-aos-offset="2600">
+         <footer>
+            <div class="shortcuts">
+               <h1 class="head--title">My Language Skills</h1>
+               <div class="links-container">
+                  <div class="links">
+                     <p></p>
+                  </div>
+               </div>
+            </div>
+            <div class="language">
+               <label for="language-select">Language</label>
+               <select id="language-select">
+                  <option value="en">English</option>
+                  <option value="tr">Türkçe</option>
+                  <option value="az">Azerbaycanca</option>
+               </select>
+            </div>
+         </footer>
+      </div>
+
+
+   </div>
+
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+   <script src="./assets/javascripts/index.js"></script>
+</body>
+
+</html>
