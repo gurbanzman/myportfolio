@@ -83,6 +83,7 @@ a {
 .page-container {
    width: 60%;
    margin: 50px auto;
+   min-width: 1400px;
 }
 
 .container {
@@ -725,6 +726,7 @@ footer .language select option:hover {
    content: '';
    position: absolute;
    width: 20px;
+   min-width: 20px;
    height: 20px;
    background:#323232;
    top: 0;
@@ -749,6 +751,7 @@ footer .language select option:hover {
    margin-bottom: 40px;
 }
 .card{
+   min-width: 500px;
    height: 300px;
    min-height: 300px;
 }
@@ -792,4 +795,35 @@ footer .language select option:hover {
    background: #c2c2c2;
    left: -12px;
    top: 12px;
+}
+@media screen and (max-width:1440px) {
+   .page-container{
+      min-width: 100%;
+   }
+   .me-info{
+      flex-direction: column;
+   }
+   .me-info-list{
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+   }
+   .me-info-option{
+      width: auto;
+   }
+   .me-info-picture{
+      width: 250px;
+      min-width: 250px;
+      height: 250px;
+      min-height: 250px;
+   }
+   .me-info-picture>img{
+      border-radius: 50%;
+   }
+}
+@media screen and (max-width:1061px) {
+   .card{
+      width: 95%;
+      min-width: 95%;
+   }
 }
