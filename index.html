@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
       integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="./assets/stylesheets/style.css">
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -36,288 +37,421 @@
 
 
    <div class="body-content">
-      <!-- navbar component -->
-      <div class="navbar-content">
-         <nav class="navbar page-container">
-
-            <section class="container flex-center">
-               <ul class="menu">
-                  <li class="menu-list">
-                     <a href="index.html" class="menu-link active">Home</a>
-                  </li>
-                  <li class="menu-list">
-                     <a href="about.html" class="menu-link">About</a>
-                  </li>
-               </ul>
-
-            </section>
-         </nav>
-      </div>
       <!-- main component: skills -->
-      <div class="main-content page-container" data-aos="fade-up" data-aos-duration="500" data-delay="1300" data-aos-offset="700">
-         <h1 class="head--title">My Skills</h1>
-         <section class="section">
-            <div class="wall">
-               <div class="v-boxes">
-                  <div class="box-header">
-                     <span class="tooltip">CSS</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-css3-alt"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-                     </div>
+      <div class="main-content page-container">
+         <div class="me-content">
+            <!-- about me -->
+            <div class="me--title" data-aos="fade-up" data-aos-duration="500" data-delay="300" data-aos-offset="500">
+               <div class="me-info me--circle">
+                  <div class="me-info-picture">
+                     <img src="./assets/images/muro.png" alt="muro.png">
                   </div>
-                  <div class="box-header">
-                     <span class="tooltip">JavaScript</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-js-square"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="box-header">
-                     <span class="tooltip">Bootstrap</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-bootstrap"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="box-header">
-                     <span class="tooltip">HTML</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-html5"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
+                  <ul class="me-info-list">
+                     <li class="me-info-option">Gurbanzade Murad</li>
+                     <li class="me-info-option">FullStack Developer</li>
+                     <li class="me-info-option">11.24.2001, Baku</li>
+                     <li class="me-info-option">(+994)-50-492-4707</li>
+                     <li class="me-info-option">github: <a href="hhtps://github.com/gurbanzman" target="_blank"
+                           class="text-zinc-300" rel="noopener noreferrer">@gurbanzman</a></li>
+                     <li class="me-info-option">linkedin: <a
+                           href="https://www.linkedin.com/in/murad-gurbanzade-389b14293/" rel="noopener noreferrer"
+                           target="_blank" class="text-zinc-300">murad gurbanzade</a></li>
+                     <li class="me-info-option">gurbanzadamurad@gmail.com</li>
+                  </ul>
                </div>
-               <div class="v-boxes second">
-                  <div class="box-header">
-                     <span class="tooltip">Github</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-github"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="box-header">
-                     <span class="tooltip">React</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-react"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="box-header">
-                     <span class="tooltip">NodeJs</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-node-js"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
+            </div>
+            <!-- education -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="800">
+               <div class="me--circle">
+                  <h1 class="about-head head--title">Education</h1>
+                  <ul class="about-list">
+                     <li class="about-option flex-between">
+                        <span>ASOIU</span>
+                        <span>2019-2023</span>
+                     </li>
+
+                  </ul>
                </div>
-               <div class="v-boxes third">
-                  <div class="box-header">
-                     <span class="tooltip">Figma</span>
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-figma"></i></div>
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="box-header">
-                     <!-- <span class="tooltip">VueNative</span> -->
-                     <div class="box-face">
-                        <!-- <div class="box-text"><i class="fa-network-wired"></i></div> -->
-                     </div>
-                     <div class="box-back">
-                        <div class="box-text">
-                           <!-- <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                           <i class="far fa-star"></i> -->
-                        </div>
-                     </div>
-                  </div>
+            </div>
+            <!-- certificate -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="1200">
+               <div class="me--circle">
+                  <h1 class="head--title">Certificate</h1>
+                  <ul class="about-list">
+                     <li class="about-option flex-between">
+                        <span>Hackerrank</span>
+                        <a href="https://www.hackerrank.com/certificates/641eedb6c6a6" rel="noopener noreferrer"
+                           target="_blank">CSS</a>
+                     </li>
+                     <li class="about-option flex-between">
+                        <span>FreeCodeCamp</span>
+                        <a href="https://www.freecodecamp.org/certification/gurbanzman/responsive-web-design"
+                           rel="noopener noreferrer" target="_blank">Responsive Web Design</a>
+                     </li>
+                     <li class="about-option flex-between">
+                        <span>MasterCode</span>
+                        <a href="#" rel="noopener noreferrer" target="_blank">Frontend Developer</a>
+                     </li>
+                  </ul>
                </div>
-               <div class="v-boxes forth">
-                  <div class="box-header link">
-                     <div class="box-face">
-                        <div class="box-text"><i class="fab fa-github-alt"></i></div>
-                     </div>
+            </div>
+            <!-- frontend skills -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="1200">
+               <div class="me--circle">
+                  <h1 class="head--title">Frontend</h1>
+                  <details open class="skills-details cursor-pointer text-zinc-400 text-lg">
+                     <summary class="skills-summary">My Frontend Skills</summary>
+                     <ul class="skills-lists flex flex-col gap-2">
+                        <li class="flex flex-col relative">
+                           <span>HTML5, Css3, Bootstrap, Tailwind</span>
+                           <span class="text-base">Css preprocessors</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>CSS preprocessors</span>
+                           <span class="text-base">Scss & Sass</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>JavaScript</span>
+                           <span class="text-base">ES5,ES6,Node Package Manager (npm)</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>JQuery</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Reactjs</span>
+                           <span class="text-base">Hooks, Router LifeCycle, React tools(Axios, Formik and others), State
+                              Management (Redux - Redux Toolkit), MUI and others.</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>REST API, JSON</span>
+                           <span class="text-base">AJAX, Fetch</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Design Tools</span>
+                           <span class="text-base">Figma, Canva</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>TypeScript</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Next JS</span>
+                           <span class="text-base">Faster Rendering, Server Side Rendering (SSR)</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Event Loop and Asynchronous Programming</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>API Error Handling ve Toast</span>
+                           <span class="text-base"></span>
+                        </li>
+                     </ul>
+                  </details>
+               </div>
+            </div>
+            <!-- backend skills -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="1200">
+               <div class="me--circle">
+                  <h1 class="head--title">Backend</h1>
+                  <details open class="skills-details cursor-pointer text-zinc-400 text-lg">
+                     <summary class="skills-summary">My Backend Skills</summary>
+                     <ul class="skills-lists flex flex-col gap-2">
+                        <li class="flex flex-col relative">
+                           <span>Nodejs / Express js</span>
+                           <span class="text-base">Connect to database, Dependency Injection</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Mongo DB Server (or NoSQL Databases)</span>
+                           <span class="text-base">Database Design and Normalization, Stored Procedures</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Web API</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Version Control</span>
+                           <span class="text-base">Git / Github</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>API Testing Tools</span>
+                           <span class="text-base">Postman , Swagger</span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>JWT (JSON Web Tokens) Authentication</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>CORS (Cross-Origin Resource Sharing) Handling</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Caching</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Reverse Proxy</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Microservices Architecture</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>SOLID Principle</span>
+                           <span class="text-base"></span>
+                        </li>
+                        <li class="flex flex-col relative">
+                           <span>Inversion of Control (IoC)</span>
+                           <span class="text-base"></span>
+                        </li>
+                     </ul>
+                  </details>
+               </div>
+            </div>
+            <!-- soft skills -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="1200">
+               <div class="me--circle">
+                  <h1 class="head--title">Soft Skills</h1>
+                  <ul class="skills-lists flex flex-col gap-2">
+                     <li class="flex flex-col relative text-zinc-400 text-lg">
+                        <span>Git & Github</span>
+                        <span class="text-base"></span>
+                     </li>
+                     <li class="flex flex-col relative text-zinc-400 text-lg">
+                        <span>Agile or Scrum</span>
+                        <span class="text-base"></span>
+                     </li>
+                     <li class="flex flex-col relative text-zinc-400 text-lg">
+                        <span>Problem Solving</span>
+                        <span class="text-base"></span>
+                     </li>
+                     <li class="flex flex-col relative text-zinc-400 text-lg">
+                        <span>Debugging Skills</span>
+                        <span class="text-base"></span>
+                     </li>
+
+                  </ul>
+               </div>
+            </div>
+            <!-- language -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="1200">
+               <div class="me--circle">
+                  <h1 class="head--title">Language</h1>
+                  <ul class="skills-lists flex flex-col gap-2">
+                     <li class="flex flex-col relative text-zinc-400 text-lg">
+                        <span>Azerbaijani</span>
+                        <span class="text-base">Native (C2)</span>
+                     </li>
+                     <li class="flex flex-col relative text-zinc-400 text-lg">
+                        <span>Turkish</span>
+                        <span class="text-base">Upper-Intermediate (B2)</span>
+                     </li>
+                     <li class="flex flex-col relative text-zinc-400 text-lg">
+                        <span>English</span>
+                        <span class="text-base">Intermediate (B1)</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!-- projects -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="1200">
+               <div class="me--circle">
+                  <h1 class="head--title">My Projects</h1>
+                  <ul class="cards flex flex-wrap gap-10">
+                     <li class="card w-2/5">
+                        <div class="card-media relative">
+                           <div class="card-container">
+                              <iframe title="github-user-search-gurbanzman"
+                                 src="https://github-user-search-gurbanzman.vercel.app/"></iframe>
+                           </div>
+                           <div class="card-bg flex items-center justify-center gap-3">
+                              <ul class="card-bg-user flex gap-4">
+                                 <li class="card-bg-user-info">
+                                    <a href="https://github.com/gurbanzman/github_user_search_"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Github</a>
+                                 </li>
+                                 <li class="card-bg-user-info">
+                                    <a href="https://github-user-search-gurbanzman.vercel.app/"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Vercel</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="mt-3 flex flex-col gap-1">
+                           <h1 class="text-2xl text-zinc-300">Github User Search</h1>
+                           <p class="text-base text-zinc-400">Frontend: HTML, CSS, Javascript; Backend: JSON-SERVER</p>
+                        </div>
+                     </li>
+                     <li class="card w-2/5">
+                        <div class="card-media relative">
+                           <div class="card-container">
+                              <iframe title="dev-jobs-eight-rho" src="https://dev-jobs-eight-rho.vercel.app/"></iframe>
+                           </div>
+                           <div class="card-bg flex items-center justify-center gap-3">
+                              <ul class="card-bg-user flex gap-4">
+                                 <li class="card-bg-user-info">
+                                    <a href="https://github.com/gurbanzman/dev_jobs" class="card-bg-user-link text-2xl"
+                                       rel="noopener noreferrer" target="_blank">Github</a>
+                                 </li>
+                                 <li class="card-bg-user-info">
+                                    <a href="https://dev-jobs-eight-rho.vercel.app/" class="card-bg-user-link text-2xl"
+                                       rel="noopener noreferrer" target="_blank">Vercel</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="mt-3 flex flex-col gap-1">
+                           <h1 class="text-2xl text-zinc-300">Dev Jobs</h1>
+                           <p class="text-base text-zinc-400">Only Frontend: HTML, CSS, Javascript</p>
+                        </div>
+                     </li>
+                     <li class="card w-2/5">
+                        <div class="card-media relative">
+                           <div class="card-container">
+                              <iframe title="single-page-developer-portfolio"
+                                 src="https://single-page-developer-portfolio-rho.vercel.app/"></iframe>
+                           </div>
+                           <div class="card-bg flex items-center justify-center gap-3">
+                              <ul class="card-bg-user flex gap-4">
+                                 <li class="card-bg-user-info">
+                                    <a href="https://github.com/gurbanzman/single-page-developer-portfolio"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Github</a>
+                                 </li>
+                                 <li class="card-bg-user-info">
+                                    <a href="https://single-page-developer-portfolio-rho.vercel.app/"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Vercel</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="mt-3 flex flex-col gap-1">
+                           <h1 class="text-2xl text-zinc-300">Single Page Portfolio</h1>
+                           <p class="text-base text-zinc-400">Frontend: React; Backend: JSON-SERVER</p>
+                        </div>
+                     </li>
+                     <li class="card w-2/5">
+                        <div class="card-media relative">
+                           <div class="card-container">
+                              <iframe title="multi-step-react-nine"
+                                 src="https://multi-step-react-nine.vercel.app/"></iframe>
+                           </div>
+                           <div class="card-bg flex items-center justify-center gap-3">
+                              <ul class="card-bg-user flex gap-4">
+                                 <li class="card-bg-user-info">
+                                    <a href="https://github.com/gurbanzman/multi-step-react"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Github</a>
+                                 </li>
+                                 <li class="card-bg-user-info">
+                                    <a href="https://multi-step-react-nine.vercel.app/"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Vercel</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="mt-3 flex flex-col gap-1">
+                           <h1 class="text-2xl text-zinc-300">Multi Step Form </h1>
+                           <p class="text-base text-zinc-400">Only Frontend: React, database inside localstorage</p>
+                        </div>
+                     </li>
+                     <li class="card w-2/5">
+                        <div class="card-media relative">
+                           <div class="card-container">
+                              <iframe title="frontend-quiz--nextjs"
+                                 src="https://frontend-quiz-nextjs.vercel.app/"></iframe>
+                           </div>
+                           <div class="card-bg flex items-center justify-center gap-3">
+                              <ul class="card-bg-user flex gap-4">
+                                 <li class="card-bg-user-info">
+                                    <a href="https://github.com/gurbanzman/frontend-quiz--nextjs"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Github</a>
+                                 </li>
+                                 <li class="card-bg-user-info">
+                                    <a href="https://frontend-quiz-nextjs.vercel.app/"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Vercel</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="mt-3 flex flex-col gap-1">
+                           <h1 class="text-2xl text-zinc-300">Frontend Quiz App </h1>
+                           <p class="text-base text-zinc-400">Frontend: Next JS; Backend: Node JS; Database: MongoDB</p>
+                        </div>
+                     </li>
+                     <li class="card w-2/5">
+                        <div class="card-media relative">
+                           <div class="card-container">
+                              <iframe title="frontend-quiz--nextjs"
+                                 src="https://github.com/gurbanzman/blog-news"></iframe>
+                           </div>
+                           <div class="card-bg flex items-center justify-center gap-3">
+                              <ul class="card-bg-user flex gap-4">
+                                 <li class="card-bg-user-info">
+                                    <a href="https://github.com/gurbanzman/frontend-quiz--nextjs"
+                                       class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Github</a>
+                                 </li>
+                                 <li class="card-bg-user-info">
+                                    <a href="#" class="card-bg-user-link text-2xl" rel="noopener noreferrer"
+                                       target="_blank">Vercel</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="mt-3 flex flex-col gap-1">
+                           <h1 class="text-2xl text-zinc-300">Blog News </h1>
+                           <p class="text-base text-zinc-400">Frontend: Next JS; Backend: Node JS; Database: MongoDB</p>
+                        </div>
+                     </li>
+
+                  </ul>
+               </div>
+            </div>
+            <!-- summary -->
+            <div class="me--title me--study" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="1200">
+               <div class="me--circle">
+                  <h1 class="head--title">Summary</h1>
+                  <p class="text-zinc-400 text-lg">As a Full Stack Web Developer with experience in both frontend and
+                     backend technologies, I have
+                     honed my skills in various programming areas including HTML, CSS, JavaScript, and libraries such as
+                     React and Node.js. My educational background in Information Technology from Azerbaijan State Oil
+                     and Industry University, combined with practical project experiences, equips me to tackle complex
+                     web development challenges efficiently and collaboratively.</p>
+               </div>
+            </div>
+            <!-- location -->
+            <div class="me--title me--location" data-aos="fade-up" data-aos-duration="500" data-delay="300"
+               data-aos-offset="14c00">
+               <div class="me--circle">
+                  <h1 class="head--title">Location</h1>
+                  <div>
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97236.44637521921!2d49.77255915054698!3d40.39469399752163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2zQmFrw7w!5e0!3m2!1str!2saz!4v1736256031988!5m2!1str!2saz"
+                        height="600" style="border:0;height: 400px" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                </div>
             </div>
-         </section>
-
-      </div>
-
-      <!-- project component -->
-      <div class="main-content">
-         <div class="projcard-container">
-            <h1 class="head--title" data-aos="fade-up" data-aos-duration="500" data-aos-offset="1400">My Projects</h1>
-
-            <div class="projcard projcard-blue" data-aos="fade-up" data-aos-duration="500" data-delay="300" data-aos-offset="1600">
-               <div class="projcard-innerbox">
-                  <img class="projcard-img" src="https://picsum.photos/800/600?image=1041" />
-                  <div class="projcard-textbox">
-                     <div class="projcard-title">Card Title</div>
-                     <div class="projcard-subtitle">This explains the card in more detail</div>
-                     <div class="projcard-bar"></div>
-                     <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                     <div class="projcard-tagbox">
-                        <span class="projcard-tag">HTML</span>
-                        <span class="projcard-tag">CSS</span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="projcard projcard-red" data-aos="fade-up" data-aos-duration="500" data-delay="400" data-aos-offset="1700">
-               <div class="projcard-innerbox">
-                  <img class="projcard-img" src="https://picsum.photos/800/600?image=1080" />
-                  <div class="projcard-textbox">
-                     <div class="projcard-title">That's Another Card</div>
-                     <div class="projcard-subtitle">I don't really think that I need to explain anything here</div>
-                     <div class="projcard-bar"></div>
-                     <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.</div>
-                     <div class="projcard-tagbox">
-                        <span class="projcard-tag">PHP</span>
-                        <span class="projcard-tag">SQL</span>
-                        <span class="projcard-tag">Database</span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="projcard projcard-green" data-aos="fade-up" data-aos-duration="500" data-delay="500" data-aos-offset="1900">
-               <div class="projcard-innerbox">
-                  <img class="projcard-img" src="https://picsum.photos/800/600?image=1039" />
-                  <div class="projcard-textbox">
-                     <div class="projcard-title">And a Third Card</div>
-                     <div class="projcard-subtitle">You know what this is by now</div>
-                     <div class="projcard-bar"></div>
-                     <div class="projcard-description">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</div>
-                     <div class="projcard-tagbox">
-                        <span class="projcard-tag">Excel</span>
-                        <span class="projcard-tag">VBA</span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="projcard projcard-customcolor" style="--projcard-color: #F5AF41;" data-aos="fade-up" data-aos-duration="500" data-delay="600" data-aos-offset="2100">
-               <div class="projcard-innerbox">
-                  <img class="projcard-img" src="https://picsum.photos/800/600?image=943" />
-                  <div class="projcard-textbox">
-                     <div class="projcard-title">Last Card</div>
-                     <div class="projcard-subtitle">That's the last one. Have a nice day!</div>
-                     <div class="projcard-bar"></div>
-                     <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                     <div class="projcard-tagbox">
-                        <span class="projcard-tag">iOS</span>
-                        <span class="projcard-tag">Android</span>
-                        <span class="projcard-tag">Cordova</span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
          </div>
-      </div>
 
-      <!-- language component (skills) -->
-      <div class="main-content" data-aos="fade-up" data-aos-duration="500" data-aos-offset="2600">
-         <footer>
-            <div class="shortcuts">
-               <h1 class="head--title">My Language Skills</h1>
-               <div class="links-container">
-                  <div class="links">
-                     <p></p>
-                  </div>
-               </div>
-            </div>
-            <div class="language">
-               <label for="language-select">Language</label>
-               <select id="language-select">
-                  <option value="en">English</option>
-                  <option value="tr">Türkçe</option>
-                  <option value="az">Azerbaycanca</option>
-               </select>
-            </div>
-         </footer>
       </div>
-
 
    </div>
 

@@ -1,56 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
-
-
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-*>img,
-*>iframe{
-   width: 100%;
-   height: 100%;
-   object-fit: fill;
-   border-radius: 12px;
-}
-
-.h-full {
-   height: 57.3rem;
-}
-
-.flex-center {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.flex-between {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-
-.flex-around {
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-}
-
-:root {
-   --size: 300px;
-   --duration: 2s;
-   --logo-color: grey;
-   --background: linear-gradient(0deg, rgba(50, 50, 50, 0.2) 0%, rgba(100, 100, 100, 0.2) 100%);
-
-}
-
-body {
-   width: 100%;
-   background: rgba(9, 10, 17, .8);
-}
-
+@import url(reset.css);
 .loader-content {
    width: 100%;
    height: 50rem;
@@ -794,4 +742,54 @@ footer .language select option:hover {
    letter-spacing: 0.5px;
    border-bottom: 2px solid rgba(255, 255, 255, 0.18);
    padding: 5px;
+}
+
+.cards{
+   row-gap: 7rem !important;
+   margin-bottom: 40px;
+}
+.card{
+   height: 300px;
+   min-height: 300px;
+}
+.card-media,
+.card-container{
+   height: 100%;
+}
+.card-bg{
+   position: absolute;
+   inset: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 12px;
+}
+.card-bg .card-bg-user{
+   transform: scale(0);
+   transition: transform 0.2s;
+}
+.card-bg:hover{
+   background: #656363;
+}
+.card-bg:hover .card-bg-user{
+   transform: scale(1);
+}
+.card-bg .card-bg-user .card-bg-user-link:hover{
+   text-decoration: underline;
+}
+.skills-lists{
+   display: block;
+   margin: 15px 0 0 40px;
+}
+.skills-lists>li::before{
+   content: '';
+   display: block;
+   position: absolute;
+   width: 5px;
+   min-width: 5px;
+   height: 5px;
+   min-height: 5px;
+   border-radius: 50%;
+   background: #c2c2c2;
+   left: -12px;
+   top: 12px;
 }
